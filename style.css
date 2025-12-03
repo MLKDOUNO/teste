@@ -1,52 +1,141 @@
 img {
     width: 120px;
+}
+
+#b {
+    display: block;
+    position: absolute;
+    width: 140px;
+    margin-top: -64vh;
+    margin-left: -30vh;
     opacity: 0;
     animation: fadeIn 1s forwards;
-    animation-delay: 1s;
+    animation-delay: 2s;
 }
-#b{
+
+#c {
     display: block;
     position: absolute;
     width: 140px;
-    margin-top: -140%;
-    margin-left: -65%;
+    margin-top: -64vh;
+    margin-left: 0vh;
+    opacity: 0;
+    animation: fadeIn 1s forwards;
+    animation-delay: 3s;
 }
-#c{
+
+#d {
     display: block;
     position: absolute;
     width: 140px;
+    margin-top: -82vh;
+    margin-left: 31vh;
+    opacity: 0;
+    animation: fadeIn 1s forwards;
+    animation-delay: 4s;
 }
-#d{
+
+#e {
     display: block;
     position: absolute;
     width: 140px;
+    margin-top: -28vh;
+    margin-left: 31vh;
+    opacity: 0;
+    animation: fadeIn 1s forwards;
+    animation-delay: 5s;
 }
-#e{
+
+#f {
     display: block;
     position: absolute;
     width: 140px;
+    margin-top: 25vh;
+    margin-left: 31vh;
+    opacity: 0;
+    animation: fadeIn 1s forwards;
+    animation-delay: 6s;
 }
-#f{
+
+#g {
     display: block;
     position: absolute;
     width: 140px;
+    margin-top: -63vh;
+    margin-left: 31vh;
+    opacity: 0;
+    animation: fadeIn 1s forwards;
+    animation-delay: 7s;
 }
-#g{
+
+#h {
     display: block;
     position: absolute;
     width: 140px;
+    margin-top: 73vh;
+    margin-left: 31vh;
+    opacity: 0;
+    animation: fadeIn 1s forwards;
+    animation-delay: 8s;
 }
-#h{
+#i {
     display: block;
     position: absolute;
     width: 140px;
+    margin-top: 67vh;
+    margin-left: 0vh;
+    opacity: 0;
+    animation: fadeIn 1s forwards;
+    animation-delay: 9s;
+}
+#j {
+    display: block;
+    position: absolute;
+    width: 140px;
+    margin-top: 65vh;
+    margin-left: -30vh;
+    opacity: 0;
+    animation: fadeIn 1s forwards;
+    animation-delay: 10s;
+}
+#k {
+    display: block;
+    position: absolute;
+    width: 140px;
+    margin-top: 11vh;
+    margin-left: -30vh;
+    opacity: 0;
+    animation: fadeIn 1s forwards;
+    animation-delay: 11s;
+}
+#l {
+    display: block;
+    position: absolute;
+    width: 140px;
+    margin-top: -25vh;
+    margin-left: -30vh;
+    opacity: 0;
+    animation: fadeIn 1s forwards;
+    animation-delay: 12s;
+}
+a{
+    text-align: center;
+    opacity: 0;
+    animation: fadeIn 1s forwards;
+    animation-delay: 13s;
+    color: white;
+}
+body{
+    background-color: rgba(240, 0, 0, 0.685);
 }
 #btn {
     display: flex;
     align-items: center;
     justify-content: center;
     height: 90vh;
+    background-color: none;
 }
+
 @keyframes fadeIn {
     to {
         opacity: 1;
