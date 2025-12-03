@@ -124,6 +124,7 @@ a{
     animation: fadeIn 1s forwards;
     animation-delay: 13s;
     color: white;
+    font-size:8px;
 }
 body{
     background-color: rgba(240, 0, 0, 0.685);
